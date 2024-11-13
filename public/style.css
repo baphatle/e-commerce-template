@@ -25,14 +25,6 @@ body {
 }
 
 /* Top Banner */
-/* .top-line {
-    background: #f7d0d1;
-    overflow: hidden;
-    padding: 5px 12.5px;
-    font-size: 12px;
-    color: #cc0e14;
-    white-space: nowrap;
-} */
 
 .top-line {
     display: flex;
@@ -47,7 +39,6 @@ body {
 
 .top-line p {
     margin-right: 120px;
-    /* display: inline-block; */
     animation: marquee 10s linear infinite;
 }
 
@@ -72,9 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
     margin: 0 auto;
-    /* padding: 10px 0; */
     width: 80%;
     text-align: right;
 
@@ -225,7 +214,6 @@ p {
 
 /* New Arrivals */
 .new-arrivals {
-    /* padding: 30px 30px; */
     text-align: center;
     color: #232323;
 }
@@ -286,7 +274,6 @@ p {
     height: 20px;
     border-radius: 50%;
     cursor: pointer;
-    /* border: 2px solid #ccc; */
     border: none;
 }
 
@@ -420,7 +407,6 @@ p {
 }
 
 .size-selection .sizes span.selected {
-    /* background-color: #000; */
     text-decoration: underline;
     color: black;
 }
@@ -438,7 +424,6 @@ p {
 
 .show-more-btn {
     width: 20%;
-    /* min-width: 190px; */
     background-color: white;
     color: #232323;
     border: 1px solid black;
@@ -483,7 +468,6 @@ p {
 .view-gallery-btn {
     margin-top: 30px;
     width: 20%;
-    /* min-width: 190px; */
     background-color: white;
     color: #232323;
     border: 1px solid black;
@@ -522,12 +506,10 @@ p {
 .footer-section.information,
 .footer-section.customer-service {
     flex: 1;
-    /* Chiếm 1 phần (1/5 chiều rộng tổng cộng) */
 }
 
 .footer-section.newsletter {
     flex: 2;
-    /* Chiếm 2 phần (2/5 chiều rộng tổng cộng) */
 }
 
 .footer-section h3 {
@@ -611,7 +593,6 @@ p {
 }
 
 
-/* Responsive Design */
 @media (max-width: 1024px) {
 
     .show-more-btn,
@@ -672,17 +653,6 @@ p {
 
     }
 
-    /* 
-    .footer-section {
-        padding-right: 0;
-    }
-
-
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    } */
     .footer-content {
         flex-direction: column;
         align-items: center;
@@ -696,7 +666,6 @@ p {
 
     .footer-section.newsletter {
         order: -1;
-        /* Đưa phần newsletter lên đầu */
     }
 
     .footer-input,
